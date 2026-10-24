@@ -1,0 +1,6 @@
+Django>=5.2,<5.3                      # фреймворк
+djangorestframework>=3.16,<3.17       # REST API поверх Django
+djangorestframework-simplejwt>=5.5,<6 # логін через JWT
+psycopg[binary]>=3.2,<4               # драйвер Postgres
+celery>=5.5,<6                        # фонові задачі
+redis>=5,<7                           # клієнт Redis (черга для Celery)
